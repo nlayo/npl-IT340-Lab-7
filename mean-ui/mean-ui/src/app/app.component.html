@@ -1,0 +1,4 @@
+<h1>MEAN Demo</h1>
+<p *ngIf="health as h">API says: {{ h | json }}</p>
+<p *ngIf="!health && !error">Loading…</p>
+<p *ngIf="error">Error: {{ error }}</p>
